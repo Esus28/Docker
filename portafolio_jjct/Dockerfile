@@ -7,5 +7,5 @@ COPY requirements.txt /opt/services/flaskapp/src
 WORKDIR /opt/services/flaskapp/src
 RUN pip install -r requirements.txt
 COPY . /opt/services/flaskapp/src
-EXPOSE 6262
+EXPOSE 6969
 CMD ["python", "Acciones.py"]
